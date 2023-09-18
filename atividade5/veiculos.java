@@ -74,9 +74,9 @@ class Bicicleta extends Veiculo {
 
 public class veiculos {
     public static void main(String[] args) {
-        Carro carro = new Carro("Toyota", "Corolla", 2022);
-        Moto moto = new Moto("Honda", "CBR 600", 2021);
-        Bicicleta bicicleta = new Bicicleta("Caloi", "Mountain Bike", 2020);
+        Carro carro = new Carro("Subaru", "Impreza", 2011);
+        Moto moto = new Moto("Kawasaki", "Ninja 650r", 2014);
+        Bicicleta bicicleta = new Bicicleta("Oggi", "Big Wheel", 2020);
 
         System.out.println("Carro: " + carro.getMarca() + " " + carro.getModelo());
         carro.acelerar();
